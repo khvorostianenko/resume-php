@@ -1,0 +1,147 @@
+table{
+    width: 100%;
+}
+
+p{
+    padding: 0px;
+    margin: inherit;
+}
+
+body{
+    padding: 20px;
+    width: 80%;
+    margin: auto;
+}
+
+img{
+    display: block;
+    width: 60% ;
+    height:auto;
+    margin: auto;
+    border: 2px solid #ffffff;
+}
+
+div {
+    display: block;
+    border: 1px solid #eaeaea;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+#head{
+    border: #ffffff;
+    display: table;
+    width: 80%;
+    margin: auto;
+    height: 314px;
+}
+
+#first_col{
+    display: table-cell;
+    float: left;
+    width: 75%;
+}
+
+#second_col{
+    display: table-cell;
+    float: right;
+    margin: auto;
+    border: 2px solid #ffffff;
+}
+
+#second_col>img{
+    display: table-cell;
+    margin: auto;
+    max-height: 310px;
+}
+
+#fio{
+    height: 50px;}
+
+p{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
+.f_col_left{
+    float: left;
+    width: 30%;
+    overflow: hidden;
+    height: 50px;
+    font-weight: bold;}
+
+.f_col_right{
+    width: auto ;
+    overflow: hidden;
+    height: 50px;}
+
+.education{
+    display: table;
+    border: 2px solid #ffffff;;
+    width: 80%;
+    margin: auto;}
+
+#education_1st{
+    display: table-column;
+    float: left;
+    width: 23%;
+    height: 206px;
+    border: 2px solid #eaeaea;}
+
+#education_2nd{
+    display:table-column;
+    float: left;
+    width: 38%;
+    overflow: hidden;}
+
+#education_3rd{
+    display:table-column;
+    float: right;
+    width: 38.2%;
+    overflow: hidden;
+}
+
+.education_2nd_cell, .education_3rd_cell{
+    display: block;
+}
+
+#oput{
+    border: 2px solid #eaeaea;
+    display: table;
+    width: 80%;
+    margin: auto;}
+
+#oput_1sr_row, #oput_2nd_row, #oput_3nd_row {
+    width: 100%;
+    display: table-row;
+}
+
+.oput_1st_col{
+    display:table-column;
+    float: left;
+    overflow: hidden;
+    width: 20%;}
+
+.oput_2nd_col{
+    display:table-cell;
+    float: right;
+    overflow: hidden;
+    width: 79%;}
+
+.oput_3rd_col{
+    display: table;
+    width: 30%;
+    float: left;
+    overflow: hidden;}
+
+.oput_4th_col{
+    display: table;
+    width: 69%;
+    float: left;
+    overflow: hidden;}
+
