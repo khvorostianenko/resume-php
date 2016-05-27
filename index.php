@@ -78,5 +78,4 @@ $work = array();
     echoArray($header);
     echoArray($education);
     echoArray($work);
-
 ?>
